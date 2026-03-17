@@ -1,0 +1,5 @@
+config SHIELD_A1PLSIT_LEFT
+    def_bool $(shields_list_contains,a1plsit_left)
+
+config SHIELD_A1PLSIT_RIGHT
+    def_bool $(shields_list_contains,a1plsit_right)
