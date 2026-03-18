@@ -10,6 +10,12 @@
     chosen {
         zmk,physical-layout = &default_layout;
     };
+    
+    wired_split {
+        compatible = "zmk,wired-split";
+        device = <&pro_micro_serial>;
+    };
+
 
     kscan: kscan {`
         // If the hardware does not use a switch matrix, change this to the
