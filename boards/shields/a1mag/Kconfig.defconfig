@@ -1,0 +1,6 @@
+if SHIELD_A1MAG
+
+config ZMK_KEYBOARD_NAME
+    default "A1MAG"
+
+endif # SHIELD_A1MAG
