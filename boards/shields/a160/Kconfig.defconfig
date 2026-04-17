@@ -1,0 +1,6 @@
+if SHIELD_A160
+
+config ZMK_KEYBOARD_NAME
+    default "A160"
+
+endif # SHIELD_A160
